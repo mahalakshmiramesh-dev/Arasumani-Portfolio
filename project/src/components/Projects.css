@@ -1,0 +1,16 @@
+.projects-note {
+  font-size: 13.5px;
+  margin-top: -32px;
+  margin-bottom: 40px;
+  max-width: 60ch;
+}
+
+.projects-note code {
+  font-family: var(--font-mono);
+  color: var(--accent);
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+}
