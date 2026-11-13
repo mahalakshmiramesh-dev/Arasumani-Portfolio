@@ -1,5 +1,5 @@
+
 import { useEffect, useState } from "react";
-import profile from "../data/profile.js";
 import "./Hero.css";
 
 export default function Hero() {
@@ -43,7 +43,7 @@ export default function Hero() {
           </h1>
 
           <h2 className="hero-role">
-            CIVIL ENGINEER 
+            CIVIL ENGINEER &
           </h2>
 
           <p className="hero-subrole">
@@ -51,8 +51,8 @@ export default function Hero() {
           </p>
 
           <p className="hero-description">
-            Civil Engineer and Technical Trainer with hands-on experience 
-            in teaching technical skills, software training and practical 
+            Civil Engineer and Technical Trainer with hands-on experience
+            in teaching technical skills, software training and practical
             engineering concepts.
           </p>
 
@@ -67,16 +67,13 @@ export default function Hero() {
 
         </div>
 
-        {/* CENTER - PROFILE IMAGE (FRAME REMOVED) */}
+        {/* CENTER - PROFILE IMAGE */}
         <div className="hero-center">
 
-          <div
-            className="hero-image-backdrop"
-            aria-hidden="true"
-          ></div>
+          <div className="hero-image-glow"></div>
 
           <img
-            src={profile.profileImage}
+            src="/images/arasu.jpeg"
             alt="Arasumani A"
             className="hero-image"
           />

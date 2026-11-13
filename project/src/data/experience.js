@@ -20,7 +20,7 @@ const experience = [
       "Experienced in developing detailed 2D drawings and 3D models with accurate dimensions and presentation-quality outputs.",
       "Continuously working on new design concepts and model developments to enhance practical and industry-oriented project standards.",
     ],
-    image: null,
+    image: "images/images1.jpg",
   },
   {
     number: "02",
@@ -31,7 +31,7 @@ const experience = [
       "Worked as a Junior Engineer supporting dredging and site execution activities. Assisted in daily site supervision, basic quantity checking, progress monitoring, and coordination with survey and site teams.",
       "Ensured works were carried out as per drawings and site instructions. Gained practical exposure to field execution, teamwork, and site documentation processes.",
     ],
-    image: "/images/experience/experience2.jpg",
+    image: "/images/images2.jpg",
   },
   {
     number: "03",
@@ -43,7 +43,7 @@ const experience = [
       "Handled topographical surveys, foundation layout setting-out, footing and column marking as per drawings, level marking & transfer, bench mark shifting, and column bolt alignment verification before concrete works.",
       "Gained strong practical knowledge in site measurement, accuracy control, and structural layout execution.",
     ],
-    image: "/images/experience/experience1.jpg",
+    image: "/images/images3.jpg",
   },
 ];
 

@@ -103,7 +103,7 @@ export default function About() {
 
             <div className="blueprint-frame about-image-frame">
               <img
-                src={profile.profileImage}
+                src="/images/arasu.jpeg"
                 alt="Arasumani A"
                 className="about-image"
               />

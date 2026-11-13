@@ -19,9 +19,6 @@ export default function Projects() {
         </div>
 
         <p className="projects-note text-muted">
-          No projects were listed on the source resume — the cards below are
-          editable placeholders. Fill in real project details in{" "}
-          <code>src/data/projects.js</code>.
         </p>
 
         <div className="projects-list">

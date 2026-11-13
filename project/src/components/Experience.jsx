@@ -1,3 +1,4 @@
+
 import experience from "../data/experience.js";
 import useReveal from "../hooks/useReveal.js";
 import MaskText from "./MaskText.jsx";
@@ -41,8 +42,7 @@ function ExperienceBox({ item }) {
 
       </div>
 
-
-      {/* RIGHT IMAGE BOX */}
+      {/* RIGHT IMAGE */}
       <div className="experience-image-wrapper">
 
         <div
@@ -60,7 +60,7 @@ function ExperienceBox({ item }) {
             />
           ) : (
             <div className="experience-image-placeholder">
-              <span> CIVIL ENGINEERING </span>
+              <span>PROFESSIONAL EXPERIENCE</span>
               <small>Experience Image</small>
             </div>
           )}
@@ -72,7 +72,6 @@ function ExperienceBox({ item }) {
     </article>
   );
 }
-
 
 export default function Experience() {
 
@@ -108,7 +107,6 @@ export default function Experience() {
           </h2>
 
         </div>
-
 
         {/* EXPERIENCE LIST */}
         <div className="experience-list">
